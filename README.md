@@ -8,14 +8,14 @@ Discover open ports on devices in the local network to understand network exposu
 Nmap 7.94SVN
 
 **Network Details**:
-Local IP Range Scanned: 10.221.91.0/24
-Scan Type: TCP SYN Scan (-sS flag)
-Scan Date: 2026-05-30 00:31 IST
+Local IP Range Scanned: 10.221.91.0/24,
+Scan Type: TCP SYN Scan (-sS flag),
+Scan Date: 2026-05-30 00:31 IST,
 Total Scan Duration: 4.98 seconds
 
 **Scan Summary**:
-Total IP addresses scanned: 256
-Active hosts discovered: 3
+Total IP addresses scanned: 256,
+Active hosts discovered: 3,
 Total ports scanned per host: 1000
 
 **Findings**:
