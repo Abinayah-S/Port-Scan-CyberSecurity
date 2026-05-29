@@ -1,2 +1,5 @@
 # Port-Scan-CyberSecurity
-Scanning local network for open ports
+Network Port Scanning Analysis
+
+Objective:
+Discover open ports on local network devices using Nmap to understand network exposure and security risks.
