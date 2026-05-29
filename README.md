@@ -55,10 +55,10 @@ The gateway device has port 53 open, which allows DNS queries. This is expected 
 
 **Key Learnings**:
 
-**Port Scanning**: TCP SYN scan (-sS) is a common reconnaissance technique used to identify open ports without completing full connections
-**Network Exposure**: Open ports represent potential attack vectors and should be regularly audited
-**Firewall Effectiveness**: The majority of ports being filtered indicates firewall rules are in place
-**DNS Services**: Critical services like DNS should be monitored and secured appropriately
+1. **Port Scanning**: TCP SYN scan (-sS) is a common reconnaissance technique used to identify open ports without completing full connections.
+2. **Network Exposure**: Open ports represent potential attack vectors and should be regularly audited.
+3. **Firewall Effectiveness**: The majority of ports being filtered indicates firewall rules are in place.
+4. **DNS Services**: Critical services like DNS should be monitored and secured appropriately
 
 **Conclusion**:
 The network shows reasonable security posture with minimal open ports exposed. Only the gateway device (10.221.91.117) has an open port (DNS on 53), which is expected and necessary for network functionality. The other devices show good protection with filtered ports, likely due to firewall rules. Regular scanning and monitoring should be performed to detect any unauthorized services or changes in network exposure.
