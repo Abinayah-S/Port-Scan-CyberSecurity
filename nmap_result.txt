@@ -1,0 +1,20 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-30 00:31 IST
+Nmap scan report for _gateway (10.221.91.117)
+Host is up (0.0033s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 56:37:CA:55:FC:B8 (Unknown)
+
+Nmap scan report for 10.221.91.144
+Host is up (0.0070s latency).
+All 1000 scanned ports on 10.221.91.144 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E6:B7:55:4A:DD:77 (Unknown)
+
+Nmap scan report for abinayah-HP-245-G5-Notebook-PC (10.221.91.38)
+Host is up (0.000031s latency).
+All 1000 scanned ports on abinayah-HP-245-G5-Notebook-PC (10.221.91.38) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (3 hosts up) scanned in 4.98 seconds
