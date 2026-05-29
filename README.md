@@ -1,26 +1,26 @@
 # Port-Scan-CyberSecurity
 Network Port Scanning Analysis
 
-## Objective
+**Objective**:
 Discover open ports on devices in the local network to understand network exposure and identify potential security risks.
 
-## Tools Used
+**Tools Used**:
 Nmap 7.94SVN
 
-## Network Details
+**Network Details**:
 Local IP Range Scanned: 10.221.91.0/24
 Scan Type: TCP SYN Scan (-sS flag)
 Scan Date: 2026-05-30 00:31 IST
 Total Scan Duration: 4.98 seconds
 
-## Scan Summary
+**Scan Summary**:
 Total IP addresses scanned: 256
 Active hosts discovered: 3
 Total ports scanned per host: 1000
 
-## Findings
+**Findings**:
 
-### Active Hosts and Open Ports
+**Active Hosts and Open Ports**:
 
 1. **Gateway (10.221.91.117)**
    - Status: UP (latency: 0.0033s)
@@ -39,15 +39,15 @@ Total ports scanned per host: 1000
    - Open Ports: 0
    - All 1000 scanned ports are in ignored states
 
-## Port Analysis
+**Port Analysis**:
 
-### Port 53 (DNS Service) on Gateway (10.221.91.117)
+**Port 53 (DNS Service) on Gateway (10.221.91.117)**
 
 **Service**: Domain Name System (DNS)
 **Analysis**: 
 The gateway device has port 53 open, which allows DNS queries. This is expected behavior for a network gateway as it typically handles DNS resolution for all devices on the network. However, this does require monitoring.
 
-## Network Observations
+**Network Observations**:
 
 1. **Low Latency**: All devices show very low latency (under 1ms), indicating they are all on the same local network
 2. **Minimal Exposure**: Out of 3 active hosts, only 1 has an open port visible, which shows relatively good network hygiene
