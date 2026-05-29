@@ -60,9 +60,5 @@ The gateway device has port 53 open, which allows DNS queries. This is expected 
 **Firewall Effectiveness**: The majority of ports being filtered indicates firewall rules are in place
 **DNS Services**: Critical services like DNS should be monitored and secured appropriately
 
-**Security Implications**:
-
-This scan demonstrates basic network reconnaissance as a first step in security assessment. Open ports should be regularly monitored and justified. Each open port should have a legitimate business purpose.
-
 **Conclusion**:
 The network shows reasonable security posture with minimal open ports exposed. Only the gateway device (10.221.91.117) has an open port (DNS on 53), which is expected and necessary for network functionality. The other devices show good protection with filtered ports, likely due to firewall rules. Regular scanning and monitoring should be performed to detect any unauthorized services or changes in network exposure.
