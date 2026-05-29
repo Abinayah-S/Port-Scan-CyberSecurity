@@ -12,9 +12,9 @@ All 1000 scanned ports on 10.221.91.144 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
 MAC Address: E6:B7:55:4A:DD:77 (Unknown)
 
-Nmap scan report for abinayah-HP-245-G5-Notebook-PC (10.221.91.38)
+Nmap scan report for abi-HP-245-G5-Notebook-PC (10.221.91.38)
 Host is up (0.000031s latency).
-All 1000 scanned ports on abinayah-HP-245-G5-Notebook-PC (10.221.91.38) are in ignored states.
+All 1000 scanned ports on abi-HP-245-G5-Notebook-PC (10.221.91.38) are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
 
 Nmap done: 256 IP addresses (3 hosts up) scanned in 4.98 seconds
